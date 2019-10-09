@@ -64,18 +64,18 @@
     "clues": [
       {
         "value": 50,
+        "icon": "instagram",
+        "answer": "Instagram"
+      },
+      {
+        "value": 100,
         "icon": "twitter",
         "answer": "Twitter"
       },
       {
-        "value": 100,
-        "icon": "facebook",
-        "answer": "Facebook"
-      },
-      {
         "value": 150,
-        "icon": "instagram",
-        "answer": "Instagram"
+        "icon": "facebook messenger",
+        "answer": "Facebook Messenger"
       },
       {
         "value": 200,
@@ -84,8 +84,8 @@
       },
       {
         "value": 250,
-        "icon": "reddit",
-        "answer": "Reddit"
+        "icon": "whatsapp",
+        "answer": "Whatsapp"
       }
     ]
   },
