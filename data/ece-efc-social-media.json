@@ -1,0 +1,152 @@
+[
+  {
+    "category": "Acronyms 1",
+    "clues": [
+      {
+        "value": 50,
+        "clue": "Hi, this is clue 50.",
+        "answer": "42!"
+      },
+      {
+        "value": 100,
+        "clue": "Hi, this is clue 100.",
+        "answer": "42!"
+      },
+      {
+        "value": 150,
+        "clue": "Hi, this is a clue.",
+        "answer": "42!"
+      },
+      {
+        "value": 200,
+        "clue": "Hi, this is a clue.",
+        "answer": "42!"
+      },
+      {
+        "value": 250,
+        "clue": "Hi, this is a clue.",
+        "answer": "42!"
+      }
+    ]
+  },
+  {
+    "category": "Acronyms 2",
+    "clues": [
+      {
+        "value": 50,
+        "clue": "Hi, this is a clue.",
+        "answer": "42!"
+      },
+      {
+        "value": 100,
+        "clue": "Hi, this is clue 100.",
+        "answer": "42!"
+      },
+      {
+        "value": 150,
+        "clue": "Hi, this is a clue.",
+        "answer": "42!"
+      },
+      {
+        "value": 200,
+        "clue": "Hi, this is a clue.",
+        "answer": "42!"
+      },
+      {
+        "value": 250,
+        "clue": "Hi, this is a clue.",
+        "answer": "42!"
+      }
+    ]
+  },
+  {
+    "category": "Logos",
+    "clues": [
+      {
+        "value": 50,
+        "clue": "Hi, this is a clue.",
+        "answer": "42!"
+      },
+      {
+        "value": 100,
+        "clue": "Hi, this is clue 100.",
+        "answer": "42!"
+      },
+      {
+        "value": 150,
+        "clue": "Hi, this is a clue.",
+        "answer": "42!"
+      },
+      {
+        "value": 200,
+        "clue": "Hi, this is a clue.",
+        "answer": "42!"
+      },
+      {
+        "value": 250,
+        "clue": "Hi, this is a clue.",
+        "answer": "42!"
+      }
+    ]
+  },
+  {
+    "category": "Jargon 1",
+    "clues": [
+      {
+        "value": 50,
+        "clue": "Hi, this is a clue.",
+        "answer": "42!"
+      },
+      {
+        "value": 100,
+        "clue": "Hi, this is clue 100.",
+        "answer": "42!"
+      },
+      {
+        "value": 150,
+        "clue": "Hi, this is a clue.",
+        "answer": "42!"
+      },
+      {
+        "value": 200,
+        "clue": "Hi, this is a clue.",
+        "answer": "42!"
+      },
+      {
+        "value": 250,
+        "clue": "Hi, this is a clue.",
+        "answer": "42!"
+      }
+    ]
+  },
+  {
+    "category": "Jargon 2",
+    "clues": [
+      {
+        "value": 50,
+        "clue": "Hi, this is a clue.",
+        "answer": "42!"
+      },
+      {
+        "value": 100,
+        "clue": "Hi, this is clue 100.",
+        "answer": "42!"
+      },
+      {
+        "value": 150,
+        "clue": "Hi, this is a clue.",
+        "answer": "42!"
+      },
+      {
+        "value": 200,
+        "clue": "Hi, this is a clue.",
+        "answer": "42!"
+      },
+      {
+        "value": 250,
+        "clue": "Hi, this is a clue.",
+        "answer": "42!"
+      }
+    ]
+  }
+]

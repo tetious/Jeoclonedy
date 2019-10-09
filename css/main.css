@@ -1,0 +1,26 @@
+.category {
+    text-align: center;
+    white-space: nowrap;
+    font-size: 2em !important;
+}
+
+.clue {
+    padding: 25% 0 !important;
+    text-align: center;
+    font-size: 5em !important;
+}
+
+#current-clue h1 {
+    padding: 25% 0 !important;
+    text-align: center;
+    font-size: 5em;
+}
+
+.score-box {
+    border: black 1px ;
+}
+
+.complete {
+    color: gray;
+}
+
