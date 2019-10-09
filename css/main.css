@@ -32,7 +32,7 @@ body {
 }
 
 #current-clue .segment {
-    height: 85vh;
+    height: 75vh;
     /*padding: 30vh 0 !important;*/
     display: flex;
     align-items: center;
@@ -46,9 +46,13 @@ body {
 }
 
 #current-clue i {
-    padding: 40vh 0 !important;
+    padding: 38vh 0 !important;
     font-size: 25em !important;
     text-align: center;
+}
+
+#current-clue .actions {
+    margin-top: 1em;
 }
 
 .score-box {

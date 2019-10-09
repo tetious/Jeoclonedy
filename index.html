@@ -57,8 +57,10 @@
                     </div>
                 </div>
             </div>
-            <button class="ui black button" style="float: right" v-on:click="back()">Back</button>
-            <button class="ui black button" style="float: right" v-on:click="toggleAnswer()">Show {{(showAnswer ? 'Clue' : 'Answer')}}</button>
+            <div class="actions">
+                <button class="ui black button" style="float: right" v-on:click="back()">Back</button>
+                <button class="ui black button" style="float: right" v-on:click="toggleAnswer()">Show {{(showAnswer ? 'Clue' : 'Answer')}}</button>
+            </div>
         </div>
     </div>
 
