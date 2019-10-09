@@ -4,28 +4,28 @@
     "clues": [
       {
         "value": 50,
-        "clue": "Hi, this is clue 50.",
-        "answer": "42!"
+        "clue": "BTW",
+        "answer": "By The Way"
       },
       {
         "value": 100,
-        "clue": "Hi, this is clue 100.",
-        "answer": "42!"
+        "clue": "IDK",
+        "answer": "I Don't Know"
       },
       {
         "value": 150,
-        "clue": "Hi, this is a clue.",
-        "answer": "42!"
+        "clue": "FAQ",
+        "answer": "Frequently Asked Questions"
       },
       {
         "value": 200,
-        "clue": "Hi, this is a clue.",
-        "answer": "42!"
+        "clue": "AKA",
+        "answer": "Also Known As"
       },
       {
         "value": 250,
-        "clue": "Hi, this is a clue.",
-        "answer": "42!"
+        "clue": "IRL",
+        "answer": "In Real Life"
       }
     ]
   },
@@ -34,28 +34,28 @@
     "clues": [
       {
         "value": 50,
-        "clue": "Hi, this is a clue.",
-        "answer": "42!"
+        "clue": "OMG",
+        "answer": "Oh My God"
       },
       {
         "value": 100,
-        "clue": "Hi, this is clue 100.",
-        "answer": "42!"
+        "clue": "ROFL",
+        "answer": "Rolling On the Floor Laughing"
       },
       {
         "value": 150,
-        "clue": "Hi, this is a clue.",
-        "answer": "42!"
+        "clue": "SMH",
+        "answer": "Shaking My Head"
       },
       {
         "value": 200,
-        "clue": "Hi, this is a clue.",
-        "answer": "42!"
+        "clue": "TBH",
+        "answer": "To Be Honest"
       },
       {
         "value": 250,
-        "clue": "Hi, this is a clue.",
-        "answer": "42!"
+        "clue": "RSVP",
+        "answer": "Respondez s'il vous plait (Please reply)"
       }
     ]
   },
@@ -64,28 +64,28 @@
     "clues": [
       {
         "value": 50,
-        "clue": "Hi, this is a clue.",
-        "answer": "42!"
+        "icon": "twitter",
+        "answer": "Twitter"
       },
       {
         "value": 100,
-        "clue": "Hi, this is clue 100.",
-        "answer": "42!"
+        "icon": "facebook",
+        "answer": "Facebook"
       },
       {
         "value": 150,
-        "clue": "Hi, this is a clue.",
-        "answer": "42!"
+        "icon": "instagram",
+        "answer": "Instagram"
       },
       {
         "value": 200,
-        "clue": "Hi, this is a clue.",
-        "answer": "42!"
+        "icon": "youtube",
+        "answer": "Youtube"
       },
       {
         "value": 250,
-        "clue": "Hi, this is a clue.",
-        "answer": "42!"
+        "icon": "reddit",
+        "answer": "Reddit"
       }
     ]
   },
@@ -94,28 +94,28 @@
     "clues": [
       {
         "value": 50,
-        "clue": "Hi, this is a clue.",
-        "answer": "42!"
+        "clue": "A word or string of characters that starts with a number sign.",
+        "answer": "Hashtag"
       },
       {
         "value": 100,
-        "clue": "Hi, this is clue 100.",
-        "answer": "42!"
+        "clue": "A piece of video, a joke, or similar that spreads quickly on the Internet.",
+        "answer": "Meme"
       },
       {
         "value": 150,
-        "clue": "Hi, this is a clue.",
-        "answer": "42!"
+        "clue": "Passed on to many other people on the Internet or using mobile phones.",
+        "answer": "Viral"
       },
       {
         "value": 200,
-        "clue": "Hi, this is a clue.",
-        "answer": "42!"
+        "clue": "A person born in the 1980s or 1990s.",
+        "answer": "Millennial"
       },
       {
         "value": 250,
-        "clue": "Hi, this is a clue.",
-        "answer": "42!"
+        "clue": "The action of telling people how good your life and achievements are in a way that makes them seem not very good, because you do not want to seem boastful – used to show disapproval.",
+        "answer": "Humblebragging"
       }
     ]
   },
@@ -124,28 +124,28 @@
     "clues": [
       {
         "value": 50,
-        "clue": "Hi, this is a clue.",
-        "answer": "42!"
+        "clue": "Selfie",
+        "answer": "A photograph you take of yourself, usually so that you can put it on a social media site."
       },
       {
         "value": 100,
-        "clue": "Hi, this is clue 100.",
-        "answer": "42!"
+        "clue": "Tweet",
+        "answer": "A message sent on Twitter."
       },
       {
         "value": 150,
-        "clue": "Hi, this is a clue.",
-        "answer": "42!"
+        "clue": "Trolls",
+        "answer": "People that try to make people angry or emotional on the internet by harassing them and constantly contacting them or commenting about them on social media."
       },
       {
         "value": 200,
-        "clue": "Hi, this is a clue.",
-        "answer": "42!"
+        "clue": "Flash mobs",
+        "answer": "People that arrange via the internet to meet in a popular place all at the same time and begin to perform together."
       },
       {
         "value": 250,
-        "clue": "Hi, this is a clue.",
-        "answer": "42!"
+        "clue": "Cyberbullying",
+        "answer": "The activity of sending Internet or text messages that threaten or insult someone"
       }
     ]
   }
