@@ -1,10 +1,18 @@
+const LS_TEAMS = "teams";
+const LS_SCORE_EVENTS = "scoreEvents";
 let app = new Vue({
 
     created() {
+        //window.addEventListener('keydown', this.keydown);
         $.getJSON("data/ece-efc-social-media.json").done(r => {
             this.categories = r;
         });
-        this.teams = JSON.parse(window.localStorage.getItem("teams")) || [];
+        this.teams = JSON.parse(window.localStorage.getItem(LS_TEAMS)) || [];
+        this.scoreEvents = JSON.parse(window.localStorage.getItem(LS_SCORE_EVENTS)) || {};
+    },
+
+    beforeDestroy() {
+        //window.removeEventListener('keydown', this.keydown);
     },
 
     el: '#app',
@@ -13,26 +21,48 @@ let app = new Vue({
         categories: [],
         scoreEvents: {},
         teams: null,
-        currentClue: null
+        currentClue: null,
+        showAnswer: false,
     },
 
     computed: {},
     methods: {
+        keydown(e) {
+            console.log(e);
+        },
         editTeams() {
             $('#game-board').hide();
             $('#team-editor').show();
         },
-        saveTeams() {
+        cancelTeams() {
             $('#game-board').show();
             $('#team-editor').hide();
+        },
+        saveTeams() {
+            this.cancelTeams();
             this.storeTeams();
         },
         score(correct, clue, team) {
-            this.scoreEvents[clue.hash][team.id] = correct ? clue.value : clue.value / 2 * -1;
+            if(correct === null) {
+                this.scoreEvents[clue.hash][team.id] = null;
+            } else {
+                this.scoreEvents[clue.hash][team.id] = correct ? clue.value : clue.value / 2 * -1;
+            }
             this.$forceUpdate();
+            this.storeScores();
         },
         storeTeams() {
-            window.localStorage.setItem("teams", JSON.stringify(this.teams));
+            window.localStorage.setItem(LS_TEAMS, JSON.stringify(this.teams));
+        },
+        storeScores() {
+            window.localStorage.setItem(LS_SCORE_EVENTS, JSON.stringify(this.scoreEvents));
+        },
+        resetScores() {
+            if (confirm("Are you sure you want to reset all scores?")) {
+                this.scoreEvents = {};
+                this.storeScores();
+                this.cancelTeams();
+            }
         },
         getScore(teamId) {
             let score = 0;
@@ -50,21 +80,27 @@ let app = new Vue({
         addTeam() {
             this.teams.push({id: this.teams.length});
         },
+        deleteTeam(t) {
+            this.teams = this.teams.filter(i => i != t);
+        },
         isComplete(category, clue) {
             const clueHash = category.category + '-' + clue.value;
             const dict = this.scoreEvents[clueHash];
             return dict != null && Object.keys(dict).length;
         },
+        toggleAnswer() {
+            this.showAnswer = !this.showAnswer;
+        },
         showClue(category, clue) {
             const clueHash = category.category + '-' + clue.value;
             this.scoreEvents[clueHash] = (this.scoreEvents[clueHash] || {});
             this.currentClue = {hash: clueHash, ...clue};
-            $('#game-board').transition('slide right');
-            $('#current-clue').transition('slide right');
+            $('#game-board').transition({animation: 'fade', onComplete: () => $('#current-clue').transition('fade')});
         },
         back() {
-            $('#game-board').transition('slide left');
-            $('#current-clue').transition('slide left');
+            this.currentClue = null;
+            this.showAnswer = false;
+            $('#current-clue').transition({animation: 'fade', onComplete: () => $('#game-board').transition('fade')});
         }
     }
 });

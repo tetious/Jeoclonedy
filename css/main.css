@@ -1,23 +1,58 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+.main {
+    margin: 1em;
+}
+
+#scoreboard h2 {
+    white-space: nowrap;
+}
+
 .category {
     text-align: center;
     white-space: nowrap;
-    font-size: 2em !important;
+    background-color: blue !important;
 }
 
 .clue {
-    padding: 25% 0 !important;
     text-align: center;
+    background-color: blue !important;
+}
+
+.clue h1 {
+    padding: 1.3vh 0 !important;
     font-size: 5em !important;
 }
 
+#current-clue {
+    margin-top: 1em;
+}
+
+#current-clue .segment {
+    height: 85vh;
+    /*padding: 30vh 0 !important;*/
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: blue !important;
+}
+
 #current-clue h1 {
-    padding: 25% 0 !important;
+    font-size: 5em !important;
     text-align: center;
-    font-size: 5em;
+}
+
+#current-clue i {
+    padding: 40vh 0 !important;
+    font-size: 25em !important;
+    text-align: center;
 }
 
 .score-box {
-    border: black 1px ;
+    border: black 1px;
 }
 
 .complete {
