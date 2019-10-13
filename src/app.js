@@ -44,7 +44,7 @@ let app = new Vue({
         },
         score(correct, clue, team) {
             if(correct === null) {
-                this.scoreEvents[clue.hash][team.id] = null;
+                delete this.scoreEvents[clue.hash][team.id];
             } else {
                 this.scoreEvents[clue.hash][team.id] = correct ? clue.value : clue.value / 2 * -1;
             }
