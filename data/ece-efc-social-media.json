@@ -80,12 +80,12 @@
       {
         "value": 200,
         "icon": "youtube",
-        "answer": "Youtube"
+        "answer": "YouTube"
       },
       {
         "value": 250,
         "icon": "whatsapp",
-        "answer": "Whatsapp"
+        "answer": "WhatsApp"
       }
     ]
   },
