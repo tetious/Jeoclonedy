@@ -15,6 +15,7 @@ let app = new Vue({
       { id: 3, name: 'Team 4' },
       { id: 4, name: 'Team 5' },
     ];
+    this.storeTeams();
     this.scoreEvents = JSON.parse(window.localStorage.getItem(LS_SCORE_EVENTS)) || {};
   },
 
@@ -68,7 +69,7 @@ let app = new Vue({
       if (confirm('Are you sure you want to reset all scores?')) {
         this.scoreEvents = {};
         this.storeScores();
-        this.cancelTeams();
+        this.hideTeamsEditor();
       }
     },
     getScore(teamId) {
