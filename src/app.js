@@ -37,12 +37,16 @@ let app = new Vue({
       $('#game-board').hide();
       $('#team-editor').show();
     },
-    cancelTeams() {
+    hideTeamsEditor() {
       $('#game-board').show();
       $('#team-editor').hide();
     },
+    cancelTeams() {
+      this.teams = JSON.parse(window.localStorage.getItem(LS_TEAMS));
+      this.hideTeamsEditor();
+    },
     saveTeams() {
-      this.cancelTeams();
+      this.hideTeamsEditor();
       this.storeTeams();
     },
     score(correct, clue, team) {

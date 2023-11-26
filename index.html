@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/main.css">
     <meta charset="UTF-8">
     <title>Jeopardy</title>
@@ -19,7 +20,7 @@
                 </div>
             </div>
             <div class="two wide right floated column" style="text-align: right">
-                <button v-if="!currentClue" class="ui tiny inverted basic button" v-on:click="editTeams()">Edit</button>
+                <button v-if="!currentClue" class="ui tiny inverted basic button" v-on:click="editTeams()"><i class='bx bx-cog'></i></button>
             </div>
         </div>
     </div>
@@ -71,7 +72,7 @@
                     <div class="field">
                         <input type="text" placeholder="Team Name" v-model="t.name">
                     </div>
-                    <button class="ui tiny negative button" v-on:click="deleteTeam(t)">Delete</button>
+                    <button class="ui tiny negative button" v-on:click="deleteTeam(t)"><i class='bx bx-trash'></i></button>
                 </div>
             </div>
             <div>
