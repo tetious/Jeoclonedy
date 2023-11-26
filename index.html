@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
@@ -8,10 +9,6 @@
 <body>
 
 <div class="ui container main" id="app">
-    <!--    <h3>Team 1: 0</h3>-->
-    <!--    <h3>Team 2: 0</h3>-->
-    <!--    <h3>Team 3: 0</h3>-->
-
     <div class="ui five column grid" id="scoreboard">
         <div class="row">
             <div class="fourteen wide centered column">
@@ -41,8 +38,11 @@
     <div style="display: none" id="current-clue">
         <div class="ui segment" v-if="currentClue">
             <h1 v-if="showAnswer"> {{ currentClue.answer }}</h1>
-            <h1 v-if="!showAnswer && currentClue.clue"> {{ currentClue.clue }}</h1>
-            <i v-if="!showAnswer && currentClue.icon" class="ui icon" v-bind:class="[currentClue.icon]"></i>
+            <span v-else>
+                <h1 v-if="currentClue.clue"> {{ currentClue.clue }}</h1>
+                <i v-if="currentClue.icon" class="ui icon" v-bind:class="[currentClue.icon]"></i>
+                <component v-if="currentClue.template" :is="currentClue.template" v-bind="currentClue.context"></component>
+            </span>
         </div>
         <div class="score-box" v-if="currentClue">
             <div class="ui equal width grid">
@@ -87,8 +87,9 @@
 </div>
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+<script src="src/components.js"></script>
 <script src="src/app.js"></script>
 </html>

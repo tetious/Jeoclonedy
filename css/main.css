@@ -1,68 +1,85 @@
 body {
-    color: white;
-    background-color: black;
+  color: white;
+  background-color: black;
 }
 
 .main {
-    margin: 1em;
+  margin: 1em;
 }
 
 #scoreboard h2 {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 .category {
-    text-align: center;
-    white-space: nowrap;
-    background-color: blue !important;    
-    user-select: none;
+  text-align: center;
+  white-space: nowrap;
+  background-color: blue !important;
+  user-select: none;
+  padding: 12px !important;
+  height: 60px;
 }
 
 .clue {
-    text-align: center;
-    background-color: blue !important;
-    user-select: none;
-    cursor: hand;
+  text-align: center;
+  background-color: blue !important;
+  user-select: none;
+  cursor: hand;
 }
 
 .clue h1 {
-    padding: 1.3vh 0 !important;
-    font-size: 5em !important;
+  padding: 1.3vh 0 !important;
+  font-size: 5em !important;
 }
 
 #current-clue {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 #current-clue .segment {
-    height: 75vh;
-    /*padding: 30vh 0 !important;*/
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    background-color: blue !important;
+  min-height: 600px !important;
+  height: 75vh;
+  /*padding: 30vh 0 !important;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue !important;
 }
 
 #current-clue h1 {
-    font-size: 5em !important;
-    text-align: center;
+  font-size: 5em !important;
+  text-align: center;
+}
+
+#current-clue h2 {
+  font-size: 3em !important;
+  text-align: center;
+}
+
+#current-clue h3 {
+  font-size: 2em !important;
+  color: gainsboro;
+}
+
+#current-clue li {
+  padding: 0.5em;
+  font-size: 2em !important;
 }
 
 #current-clue i {
-    padding: 38vh 0 !important;
-    font-size: 25em !important;
-    text-align: center;
+  padding: 38vh 0 !important;
+  font-size: 25em !important;
+  text-align: center;
 }
 
 #current-clue .actions {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 .score-box {
-    border: black 1px;
+  border: black 1px;
 }
 
 .complete {
-    color: gray;
+  color: gray;
 }
-

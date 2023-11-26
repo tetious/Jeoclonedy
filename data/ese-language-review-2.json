@@ -1,0 +1,68 @@
+[
+  {
+    "category": "Verbs",
+    "clues": [
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "Wilson threw the ball and <u>break</u> the lamp on the desk.",
+          "choices": ["breaked", "broke", "broked", "No change"]
+        },
+        "answer": "B. broke"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "The leaves <u>falled</u> off all the trees last month.",
+          "choices": ["fall", "fell", "felled", "No change"]
+        },
+        "answer": "B. fell"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "Marie <u>eated</u> a snack before going to bed.",
+          "choices": ["ate", "ated", "eat", "No change"]
+        },
+        "answer": "A. ate"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "Joy <u>blowed</u> out all eight burthday cancels in one breath.",
+          "choices": ["blew", "blewed", "blow", "No change"]
+        },
+        "answer": "A. blew"
+      }
+    ]
+  },
+  {
+    "category": "Pronouns",
+    "clues": [
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "Cal and Sam like to eat at Corner Deli because <u>he</u> can order chocolate milk.",
+          "choices": ["they", "we", "you", "No change"]
+        },
+        "answer": "A. they"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "The boy was tired, so <u>they</u> decided to take a nap after school.",
+          "choices": ["he", "it", "we", "No change"]
+        },
+        "answer": "A. he"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "The student lost her library books, so <u>she</u> looked for them in her room.",
+          "choices": ["he", "they", "we", "No change"]
+        },
+        "answer": "C. we OR D. No change"
+      }
+    ]
+  }
+]

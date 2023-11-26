@@ -1,0 +1,235 @@
+[
+  {
+    "category": "Plural Nouns",
+    "clues": [
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "All the <u>childs</u> cheered loudly after the show.",
+          "choices": ["child", "children", "childrens", "No change"]
+        },
+        "answer": "B. children"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "The two <u>mans</u> shook hands before sitting down.",
+          "choices": ["man", "men", "mens", "No change"]
+        },
+        "answer": "B. men"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "The three <u>childs</u> covered their eyes with their hands.",
+          "choices": ["child", "children", "childrens", "No change"]
+        },
+        "answer": "B. children"
+      }
+    ]
+  },
+  {
+    "category": "Verb Tenses",
+    "clues": [
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "Dad <u>cook</u> dinner for us last Saturday night, and it was delicious.",
+          "choices": ["cooked", "cooks", "will cook", "No change"]
+        },
+        "answer": "A. cooked"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "Mike <u>played</u> in the backyard yesterday morning.",
+          "choices": ["play", "plays", "will play", "No change"]
+        },
+        "answer": "D. No change"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "Lenny <u>walk</u> to the park last Sunday morning.",
+          "choices": ["walked", "walks", "will walk", "No change"]
+        },
+        "answer": "A. walked"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "Darion <u>cook</u> dinner for his family tomorrow.",
+          "choices": ["cooked", "cooks", "will cook", "No change"]
+        },
+        "answer": "C. will cook"
+      }
+    ]
+  },
+  {
+    "category": "Prefixes/Suffixes",
+    "clues": [
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "Please <u>mistie</u> your shoelaces before taking off your shoes.",
+          "choices": ["pretie", "retie", "untie", "No change"]
+        },
+        "answer": "untie"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "I <u>misheard</u> the directions, so my answer to the problem was wrong.",
+          "choices": ["deheard", "preheard", "reheard", "No change"]
+        },
+        "answer": "No change"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "To save electricity, you should <u>unplug</u> your television when it is not in use.",
+          "choices": ["misplug", "preplug", "replug", "No change"]
+        },
+        "answer": "No change"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "Anna decided to <u>rewrite</u> her poem using shorter lines.",
+          "choices": ["diswrite", "nonwrite", "unwrite", "No change"]
+        },
+        "answer": "No change"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "Amir did not earn a perfect score because he <u>misspelled</u> two words.",
+          "choices": ["prespelled", "respelled", "unspelled", "No change"]
+        },
+        "answer": "No change"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "All of the bright colors make your painting so <u>cheerish</u>.",
+          "choices": ["cheerness", "cheerlike", "cheerful", "No change"]
+        },
+        "answer": "cheerful"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "The girl <u>rebuilt</u> the block tower after her brother knocked it down.",
+          "choices": ["disbuilt", "misbuilt", "prebuilt", "No change"]
+        },
+        "answer": "No change"
+      }
+    ]
+  },
+  {
+    "category": "Title Case",
+    "clues": [
+        {
+            "template": "ese-grammar-mc",
+            "context": {
+            "sentence": "Keyshawn is reading <u>the clue of the invisible footprint</u>.",
+            "choices": ["The Clue of the Invisible footprint", "the Clue Of The Invisible Footprint", "The Clue of the Invisible Footprint", "No change"]
+            },
+            "answer": "C. The Clue of the Invisible Footprint"
+        },
+        {
+            "template": "ese-grammar-mc",
+            "context": {
+            "sentence": "Darla's favorite book is <u>the day the elephant rode the subway</u>.",
+            "choices": ["The day the Elephant rode the Subway", "The Day The Elephant Rode The Subway", "The Day the Elephant Rode the Subway", "No change"]
+            },
+            "answer": "C. The Day the Elephant Rode the Subway"
+        },
+        {
+            "template": "ese-grammar-mc",
+            "context": {
+            "sentence": "Tyrone is reading <u>the adventures of sammy simpson</u>.",
+            "choices": ["The Adventures of Sammy simpson", "the Adventures Of Sammy simpson", "The Adventures of Sammy Simpson", "No change"]
+            },
+            "answer": "C. The Adventures of Sammy Simpson"
+        },
+        {
+            "template": "ese-grammar-mc",
+            "context": {
+            "sentence": "The Jones family's favorite movie is <u>the wizard of oz</u>.",
+            "choices": ["the Wizard of oz", "The Wizard of Oz", "The wizard of Oz", "No change"]
+            },
+            "answer": "B. The Wizard of Oz"
+        },
+        {
+            "template": "ese-grammar-mc",
+            "context": {
+            "sentence": "Jada is reading <u>the tale of mr. babble</u>.",
+            "choices": ["The Tale of Mr. babble", "The Tale of Mr. Babble", "the Tale of Mr. Babble", "No change"]
+            },
+            "answer": "B. The Tale of Mr. Babble"
+        }
+    ]
+  },
+  {
+    "category": "Comparative",
+    "clues": [
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "Today is the <u>most coldest</u> day of the year so far.",
+          "choices": ["colder", "coldest", "more cold", "No change"]
+        },
+        "answer": "B. coldest"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "The bedroom is <u>more cleaner</u> than it was last weekend.",
+          "choices": ["cleaner", "cleanest", "most clean", "No change"]
+        },
+        "answer": "A. cleaner"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "The spruce tree in the backyard was <u>more tall</u> than the house.",
+          "choices": ["most tall", "taller", "tallest", "No change"]
+        },
+        "answer": "B. taller"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "Rose is the <u>most fast</u> player on her soccer team.",
+          "choices": ["faster", "fastest", "more fast", "No change"]
+        },
+        "answer": "B. fastest"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "Isla chose the <u>most straighter</u> branch she could find for roasting marshmallows.",
+          "choices": ["more straight", "straighter", "straightest", "No change"]
+        },
+        "answer": "C. straightest"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "Older dogs are usually <u>most calmest</u> than puppies.",
+          "choices": ["calmer", "calmest", "more calmer", "No change"]
+        },
+        "answer": "A. calmer"
+      },
+      {
+        "template": "ese-grammar-mc",
+        "context": {
+          "sentence": "Jenna thought it was the <u>most dark</u> night she could remember.",
+          "choices": ["darker", "darkest", "more dark", "No change"]
+        },
+        "answer": "B. darkest"
+      }
+    ]
+  }
+]
